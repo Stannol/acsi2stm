@@ -25,7 +25,7 @@
 #define ACSI2STM_VERSION "2.1"
 
 // Set to 1 to enable debug output on the serial port
-#define ACSI_DEBUG 0
+#define ACSI_DEBUG 1
 
 // Set to 1 to enable verbose command output on the serial port
 #define ACSI_VERBOSE 0
@@ -35,8 +35,7 @@
 #define ACSI_DUMP_LEN 16
 
 // Serial port used for debug/verbose output.
-#define ACSI_SERIAL Serial
-
+#define ACSI_SERIAL Serial1
 // Filter/delay data acquisition on ACK pulse.
 // Set this to 1 to sample 13.8ns later
 // Set this to 2 to sample 41.6ns later
